@@ -24,4 +24,5 @@ TEST(TicTacToeBoardTest, toggleTurn)
 	TicTacToeBoard tictactoeboard;
 	ASSERT_EQ(tictactoeboard.toggleTurn(), O);
 	ASSERT_EQ(tictactoeboard.toggleTurn(), X);
+	ASSERT_EQ(tictactoeboard.toggleTurn(), X);
 }
