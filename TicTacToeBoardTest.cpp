@@ -14,8 +14,7 @@ protected:
 	virtual void TearDown() {}		 //clean up after each test, (before destructor)
 };
 
-EXAMPLE TEST FORMAT
-	TEST(TicTacToeBoardTest, unitTestName)
+TEST(TicTacToeBoardTest, unitTestName)
 {
 	ASSERT_TRUE(true);
 }
