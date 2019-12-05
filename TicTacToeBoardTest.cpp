@@ -71,12 +71,6 @@ TEST(TicTacToeBoardTest, getPieceX)
 	ASSERT_EQ(board.getPiece(1, 1), X);
 }
 
-TEST(TicTacToeBoardTest, getPieceIn)
-{
-	TicTacToeBoard board;
-	ASSERT_EQ(board.placePiece(1, 1), Blank);
-}
-
 TEST(TicTacToeBoardTest, getPieceOut)
 {
 	TicTacToeBoard board;
@@ -116,4 +110,3 @@ TEST(TicTacToeBoardTest, placeAfterDraw)
 	board.placePiece(2, 1);
 	ASSERT_EQ(board.placePiece(0, 0), X);
 }
-
